@@ -1,0 +1,27 @@
+body {
+    background-color: #CCCCCC;
+}
+
+.container {
+    background: linear-gradient(180deg, #1D0C20, #651F71);
+    margin: auto;
+    border-radius: 5px;
+    width: 600px;
+    padding: 20px;
+}
+
+.container-title {
+    color: #FECD23;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.container-text {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
