@@ -6,8 +6,9 @@ body {
     background: linear-gradient(180deg, #1D0C20, #651F71);
     margin: auto;
     border-radius: 5px;
-    width: 700px;
-    padding: 20px;
+    width: 650px;
+    padding: 25px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.1);
 }
 
 .container-title {
@@ -25,4 +26,30 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     margin: 0 10px;
+    margin-bottom: 40px;
+}
+
+.header {
+    background: linear-gradient(180deg, #651F71, #1D0C20);
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 9px;
+    margin: 12px auto;
+    width: 75%;
 }
